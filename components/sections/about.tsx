@@ -30,24 +30,23 @@ export function About() {
                 промышленных систем автоматизации. Эксперт в области
                 SCADA-систем (Alpha Scada, PcVue, TIA Portal, MasterSCADA) и
                 программирования ПЛК. Магистр ТУСУРа по специальности
-                «Управление и информатика в технических системах». Работаю с
-                C#, C++, JavaScript, базами данных и промышленными протоколами
-                (Modbus, OPC).
+                «Управление в технических системах». Работаю с
+                C#, C++, JavaScript, Microsoft Visual Basic, Microsoft SQL, PostgreSQL и промышленными протоколами.
               </p>
 
               <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
                 <div className="flex flex-col items-center gap-2 rounded-lg bg-secondary/60 p-4 text-center">
                   <Briefcase className="h-6 w-6 text-primary" />
-                  <span className="text-2xl font-bold">6+</span>
+                  <span className="text-2xl font-bold">4+</span>
                   <span className="text-xs text-muted-foreground">
                     лет опыта
                   </span>
                 </div>
                 <div className="flex flex-col items-center gap-2 rounded-lg bg-secondary/60 p-4 text-center">
                   <Cpu className="h-6 w-6 text-primary" />
-                  <span className="text-2xl font-bold">6</span>
+                  <span className="text-2xl font-bold">6+</span>
                   <span className="text-xs text-muted-foreground">
-                    SCADA-систем
+                    Платформ для разработки SCADA-систем
                   </span>
                 </div>
                 <div className="flex flex-col items-center gap-2 rounded-lg bg-secondary/60 p-4 text-center">
@@ -61,7 +60,7 @@ export function About() {
                   <MapPin className="h-6 w-6 text-primary" />
                   <span className="text-2xl font-bold">Томск</span>
                   <span className="text-xs text-muted-foreground">
-                    Remote / On-site
+                    Удаленно / Очно
                   </span>
                 </div>
               </div>
