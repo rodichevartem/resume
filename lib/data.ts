@@ -2,16 +2,16 @@ export const personalData = {
   name: 'Артём Родичев',
   position: 'Инженер-программист',
   subtitle: 'Industrial Automation & SCADA Developer',
-  phone: '+7 999 178-15-61',
-  phoneHref: 'tel:+79991781561',
-  email: 'rodichevartem@mail.ru',
-  emailHref: 'mailto:rodichevartem@mail.ru',
+  phone: '+7-983-237-93-97',
+  phoneHref: 'tel:+79832379397',
+  email: 'rodichevartem@yandex.ru',
+  emailHref: 'mailto:rodichevartem@yandex.ru',
   location: 'Томск, Россия',
   totalExperience: '6 лет 5 месяцев',
   socials: {
-    github: 'https://github.com/',
-    linkedin: 'https://linkedin.com/',
-    telegram: 'https://t.me/',
+    github: 'https://github.com/rodichevartem/resume',
+    hh: 'https://tomsk.hh.ru/resume/7becdf8fff08e8900b0039ed1f6f6d616a464c',
+    telegram: 'https://t.me/rodichev_artem',
   },
 };
 
@@ -61,13 +61,24 @@ export const experienceData = [
       'Разработка верхнего уровня АСУ ТП в Simple-SCADA. Интеграция с Modbus, Microsoft SQL Server, OPC-сервером',
     ],
   },
+    {
+    period: 'Июнь 2021 — Июль 2021',
+    duration: '2 месяца',
+    company: 'ООО Авсис',
+    position: 'Программист',
+    department: '',
+    current: false,
+    achievements: [
+      'Разработка Frontend части для gambling-игр',
+    ],
+  },
 ];
 
 export const skillsData = [
   {
     category: 'Языки программирования',
     icon: 'Code',
-    skills: ['C#', 'C++', 'JavaScript'],
+    skills: ['C#', 'C++', 'JavaScript', 'Microsoft Visual Basic','Python'],
   },
   {
     category: 'SCADA-системы',
@@ -82,14 +93,9 @@ export const skillsData = [
     ],
   },
   {
-    category: 'Промышленные протоколы',
-    icon: 'Cable',
-    skills: ['Modbus', 'OPC'],
-  },
-  {
     category: 'Базы данных',
     icon: 'Database',
-    skills: ['Microsoft SQL Server'],
+    skills: ['Microsoft SQL','PostgreSQL'],
   },
   {
     category: 'Операционные системы',
@@ -115,7 +121,7 @@ export const skillsData = [
   {
     category: 'Языки',
     icon: 'Languages',
-    skills: ['Английский язык'],
+    skills: ['Русский язык','Английский язык'],
   },
 ];
 
@@ -146,7 +152,7 @@ export const projectsData = [
     icon: 'Package',
   },
   {
-    title: 'Строительство колесопрокатного цеха на площадке АО «Уральская сталь»',
+    title: 'Строительство колесопрокатного цеха',
     client: 'АО «Уральская сталь»',
     icon: 'CircleDot',
   },
@@ -176,7 +182,7 @@ export const coursesData = [
   },
   {
     title: 'Программный комплекс AstraRegul. Базовый курс для системных интеграторов',
-    provider: 'АО «Атомик Софт»',
+    provider: 'ООО «РегЛаб»',
   },
   {
     title: 'Системный аналитик промышленных цифровых решений: проектирование, прототипирование, бизнес-эффекты',
