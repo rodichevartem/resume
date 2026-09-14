@@ -116,7 +116,7 @@ export function Contacts() {
               <div className="mt-6 flex items-center justify-center gap-2 rounded-lg bg-background p-4 text-center">
                 <Briefcase className="h-5 w-5 shrink-0 text-primary" />
                 <span className="text-sm font-medium">
-                  Постоянная работа, Стажировка | На месте, Удалённо
+                  Постоянная работа | Стажировка, Очно | Удалённо
                 </span>
               </div>
 
@@ -144,16 +144,6 @@ export function Contacts() {
                   aria-label="GitHub"
                 >
                   <Github className="h-5 w-5" />
-                </a>
-                <a
-                  href={personalData.socials.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex h-10 w-10 items-center justify-center rounded-lg border bg-background transition-all hover:scale-110 hover:border-primary hover:text-primary"
-                  aria-label="LinkedIn"
-                >
-                  <Linkedin className="h-5 w-5" />
-                </a>
                 <a
                   href={personalData.socials.telegram}
                   target="_blank"
