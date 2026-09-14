@@ -144,6 +144,7 @@ export function Contacts() {
                   aria-label="GitHub"
                 >
                   <Github className="h-5 w-5" />
+                </a>
                 <a
                   href={personalData.socials.telegram}
                   target="_blank"
