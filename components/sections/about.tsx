@@ -27,11 +27,9 @@ export function About() {
             <CardContent className="p-6 sm:p-8">
               <p className="text-base leading-relaxed text-foreground sm:text-lg text-balance">
                 Инженер-программист с 4-х летним стажем разработки ПО для
-                промышленных систем автоматизации. Эксперт в области
-                SCADA-систем (Alpha Scada, PcVue, TIA Portal, MasterSCADA) и
-                программирования ПЛК. Магистр ТУСУРа по специальности
-                «Управление в технических системах». Работаю с
-                C#, C++, JavaScript, Microsoft Visual Basic, Microsoft SQL, PostgreSQL и промышленными протоколами.
+                промышленных систем автоматизации. Магистр ТУСУРа по специальности «Управление в технических системах». 
+                Эксперт в области SCADA-систем (Alpha Scada, PcVue, TIA Portal, MasterSCADA) и
+                программирования ПЛК. Работаю с C#, C++, JavaScript, Microsoft Visual Basic, Microsoft SQL, PostgreSQL и промышленными протоколами.
               </p>
 
               <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
