@@ -77,7 +77,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg text-balance"
           >
-            Разрабатываю программное обеспечение для автоматизированных систем
+            Разработка программное обеспечение для автоматизированных систем
             управления технологическими процессами. Специализация: SCADA-системы,
             ПЛК, верхний и средний уровень АСУ ТП.
           </motion.p>
@@ -117,41 +117,6 @@ export function Hero() {
               <Download className="mr-2 h-4 w-4" />
               Скачать резюме
             </Button>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.6 }}
-            className="mt-8 flex items-center justify-center gap-4"
-          >
-            <a
-              href={personalData.socials.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex h-10 w-10 items-center justify-center rounded-lg border bg-background transition-all hover:scale-110 hover:border-primary hover:text-primary"
-              aria-label="GitHub"
-            >
-              <Github className="h-5 w-5" />
-            </a>
-            <a
-              href={personalData.socials.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex h-10 w-10 items-center justify-center rounded-lg border bg-background transition-all hover:scale-110 hover:border-primary hover:text-primary"
-              aria-label="LinkedIn"
-            >
-              <Linkedin className="h-5 w-5" />
-            </a>
-            <a
-              href={personalData.socials.telegram}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex h-10 w-10 items-center justify-center rounded-lg border bg-background transition-all hover:scale-110 hover:border-primary hover:text-primary"
-              aria-label="Telegram"
-            >
-              <Send className="h-5 w-5" />
-            </a>
           </motion.div>
         </div>
 
