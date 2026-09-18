@@ -2,12 +2,12 @@ export const personalData = {
   name: 'Артём Родичев',
   position: 'Инженер-программист',
   subtitle: 'Industrial Automation & SCADA Developer',
-  phone: '+7-983-237-93-97',
-  phoneHref: 'tel:+79832379397',
+  phone: '+7-983-237-93-**',
+  phoneHref: 'tel:+7983237**',
   email: 'rodichevartem@yandex.ru',
   emailHref: 'mailto:rodichevartem@yandex.ru',
   location: 'Томск, Россия',
-  totalExperience: '6 лет 5 месяцев',
+  totalExperience: '4 года 6 месяцев',
   socials: {
     github: 'https://github.com/rodichevartem/resume',
     hh: 'https://tomsk.hh.ru/resume/7becdf8fff08e8900b0039ed1f6f6d616a464c',
@@ -162,14 +162,14 @@ export const educationData = [
   {
     degree: 'Магистр',
     year: '2022',
-    specialty: 'Управление и информатика в технических системах (инженер)',
+    specialty: 'Управление в технических системах',
     university:
       'Томский государственный университет систем управления и радиоэлектроники (ТУСУР)',
   },
   {
     degree: 'Бакалавр',
     year: '2020',
-    specialty: 'Управление и информатика в технических системах',
+    specialty: 'Управление в технических системах',
     university:
       'Томский государственный университет систем управления и радиоэлектроники (ТУСУР)',
   },
