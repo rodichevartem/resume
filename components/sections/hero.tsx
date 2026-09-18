@@ -118,41 +118,6 @@ export function Hero() {
               Скачать резюме
             </Button>
           </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.6 }}
-            className="mt-8 flex items-center justify-center gap-4"
-          >
-            <a
-              href={personalData.socials.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex h-10 w-10 items-center justify-center rounded-lg border bg-background transition-all hover:scale-110 hover:border-primary hover:text-primary"
-              aria-label="GitHub"
-            >
-              <Github className="h-5 w-5" />
-            </a>
-            <a
-              href={personalData.socials.hh}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex h-10 w-10 items-center justify-center rounded-lg border bg-background transition-all hover:scale-110 hover:border-primary hover:text-primary"
-              aria-label="HeadHunter"
-            >
-              <Briefcase className="h-5 w-5" />
-            </a>
-            <a
-              href={personalData.socials.telegram}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex h-10 w-10 items-center justify-center rounded-lg border bg-background transition-all hover:scale-110 hover:border-primary hover:text-primary"
-              aria-label="Telegram"
-            >
-              <Send className="h-5 w-5" />
-            </a>
-          </motion.div>
         </div>
 
         <motion.div
