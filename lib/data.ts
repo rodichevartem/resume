@@ -1,7 +1,7 @@
 export const personalData = {
   name: 'Артём Родичев',
   position: 'Инженер-программист',
-  subtitle: 'Industrial Automation & SCADA Developer',
+  subtitle: 'Автоматизация производств & Разработка в SCADA-системах',
   phone: '+7-983-237-93-**',
   phoneHref: 'tel:+7983237**',
   email: 'rodichevartem@yandex.ru',
