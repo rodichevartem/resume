@@ -26,7 +26,7 @@ export function About() {
           <Card className="mx-auto max-w-3xl">
             <CardContent className="p-6 sm:p-8">
               <p className="text-base leading-relaxed text-foreground sm:text-lg text-balance">
-                Опытный инженер-программист с 6-летним стажем разработки ПО для
+                Опытный инженер-программист с 4-х летним стажем разработки ПО для
                 промышленных систем автоматизации. Эксперт в области
                 SCADA-систем (Alpha Scada, PcVue, TIA Portal, MasterSCADA) и
                 программирования ПЛК. Магистр ТУСУРа по специальности
