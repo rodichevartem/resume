@@ -120,21 +120,6 @@ export function Contacts() {
                 </span>
               </div>
 
-              <div className="mt-6 flex flex-col items-center justify-center gap-4 sm:flex-row">
-                <Button asChild size="lg" className="w-full sm:w-auto">
-                  <a href={personalData.phoneHref}>
-                    <Phone className="mr-2 h-4 w-4" />
-                    Позвонить
-                  </a>
-                </Button>
-                <Button asChild size="lg" variant="outline" className="w-full sm:w-auto">
-                  <a href={personalData.emailHref}>
-                    <Mail className="mr-2 h-4 w-4" />
-                    Написать на почту
-                  </a>
-                </Button>
-              </div>
-
               <div className="mt-6 flex items-center justify-center gap-4 no-print">
                 <a
                   href={personalData.socials.github}
