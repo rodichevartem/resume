@@ -5,7 +5,7 @@ import { Briefcase, Calendar, MapPin, ChevronRight } from 'lucide-react';
 
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
-import { experienceData } from '@/lib/data';
+import { experienceData, personalData } from '@/lib/data';
 
 export function Experience() {
   return (
@@ -17,7 +17,7 @@ export function Experience() {
           </h2>
           <div className="mx-auto mt-3 h-1 w-20 rounded-full bg-primary" />
           <p className="mt-4 text-muted-foreground">
-            6 лет 5 месяцев в промышленной автоматизации
+            {personalData.totalExperience} в промышленной автоматизации
           </p>
         </div>
 

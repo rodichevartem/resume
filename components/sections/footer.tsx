@@ -1,6 +1,6 @@
 'use client';
 
-import { Cpu, Github, Linkedin, Send, Phone, Mail } from 'lucide-react';
+import { Cpu, Github, Send, Phone, Mail, Briefcase } from 'lucide-react';
 
 import { personalData, navLinks } from '@/lib/data';
 
@@ -74,13 +74,13 @@ export function Footer() {
               <Github className="h-4 w-4" />
             </a>
             <a
-              href={personalData.socials.linkedin}
+              href={personalData.socials.hh}
               target="_blank"
               rel="noopener noreferrer"
               className="flex h-8 w-8 items-center justify-center rounded-lg border transition-colors hover:border-primary hover:text-primary"
-              aria-label="LinkedIn"
+              aria-label="HeadHunter"
             >
-              <Linkedin className="h-4 w-4" />
+              <Briefcase className="h-4 w-4" />
             </a>
             <a
               href={personalData.socials.telegram}

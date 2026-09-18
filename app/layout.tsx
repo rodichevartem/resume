@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://rodichev-portfolio.netlify.app'),
   title: 'Артём Родичев — Инженер-программист | SCADA & АСУ ТП',
   description:
-    'Инженер-программист с 6+ годами опыта в промышленной автоматизации. Специализация: SCADA-системы (Alpha Scada, PcVue, TIA Portal, MasterSCADA), ПЛК, C#, C++, промышленные протоколы.',
+    'Инженер-программист с 4+ годами опыта в промышленной автоматизации. Специализация: SCADA-системы (Alpha Scada, PcVue, TIA Portal, MasterSCADA), ПЛК, C#, C++, базы данных.',
   keywords: [
     'Артём Родичев',
     'инженер-программист',
@@ -32,14 +32,14 @@ export const metadata: Metadata = {
     locale: 'ru_RU',
     title: 'Артём Родичев — Инженер-программист | SCADA & АСУ ТП',
     description:
-      '6+ лет опыта разработки ПО для промышленных систем автоматизации. SCADA, ПЛК, C#, промышленные протоколы.',
+      '4+ года опыта разработки ПО для промышленных систем автоматизации. SCADA, ПЛК, C#, базы данных.',
     siteName: 'Артём Родичев — Портфолио',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Артём Родичев — Инженер-программист | SCADA & АСУ ТП',
     description:
-      '6+ лет опыта разработки ПО для промышленных систем автоматизации.',
+      '4+ года опыта разработки ПО для промышленных систем автоматизации.',
   },
   robots: {
     index: true,
@@ -54,8 +54,8 @@ const personJsonLd = {
   jobTitle: 'Инженер-программист',
   description:
     'Инженер-программист, специализирующийся на промышленной автоматизации и SCADA-системах',
-  email: 'rodichevartem@mail.ru',
-  telephone: '+79991781561',
+  email: 'rodichevartem@yandex.ru',
+  telephone: '+79832379300',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Томск',
@@ -72,9 +72,8 @@ const personJsonLd = {
     'Alpha Scada',
     'PcVue',
     'MasterSCADA',
-    'Modbus',
-    'OPC',
-    'Microsoft SQL Server',
+    'Microsoft SQL',
+    'PostgreSQL',
     'Astra Linux',
   ],
   alumniOf: {

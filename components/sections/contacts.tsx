@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Phone, Mail, MapPin, Briefcase, Copy, Check, Github, Linkedin, Send } from 'lucide-react';
+import { Phone, Mail, MapPin, Briefcase, Copy, Check, Github, Send } from 'lucide-react';
 import * as React from 'react';
 
 import { Button } from '@/components/ui/button';
@@ -129,6 +129,15 @@ export function Contacts() {
                   aria-label="GitHub"
                 >
                   <Github className="h-5 w-5" />
+                </a>
+                <a
+                  href={personalData.socials.hh}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex h-10 w-10 items-center justify-center rounded-lg border bg-background transition-all hover:scale-110 hover:border-primary hover:text-primary"
+                  aria-label="HeadHunter"
+                >
+                  <Briefcase className="h-5 w-5" />
                 </a>
                 <a
                   href={personalData.socials.telegram}
