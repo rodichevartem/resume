@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import { Menu, Download, Cpu } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
-import { ThemeToggle } from '@/components/theme-toggle';
 import { Sheet, SheetContent, SheetTrigger, SheetClose, SheetHeader, SheetTitle } from '@/components/ui/sheet';
 import { navLinks } from '@/lib/data';
 import { cn } from '@/lib/utils';
@@ -34,7 +33,7 @@ export function Header() {
     e.preventDefault();
     setOpen(false);
     const element = document.querySelector(href);
-    if (element) window.scrollTo({ top: element.getBoundingClientRect().top + window.scrollY - 72, behavior: 'smooth' });
+    if (element) window.scrollTo({ top: element.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' });
   };
 
   return (
@@ -55,7 +54,6 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <ThemeToggle />
           <Button size="sm" variant="outline" className="hidden border-primary/40 bg-transparent text-xs hover:bg-primary/10 sm:inline-flex" onClick={() => window.print()}>
             <Download className="mr-2 h-3.5 w-3.5" /> Скачать CV
           </Button>

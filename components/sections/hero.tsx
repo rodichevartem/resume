@@ -10,7 +10,7 @@ import { personalData } from '@/lib/data';
 export function Hero() {
   const scrollTo = (id: string) => {
     const element = document.querySelector(id);
-    if (element) window.scrollTo({ top: element.getBoundingClientRect().top + window.scrollY - 72, behavior: 'smooth' });
+    if (element) window.scrollTo({ top: element.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' });
   };
 
   return (

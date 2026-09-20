@@ -14,7 +14,7 @@ export function Footer() {
     e.preventDefault();
     const el = document.querySelector(href);
     if (el) {
-      const headerHeight = 64;
+      const headerHeight = 80;
       const top = el.getBoundingClientRect().top + window.scrollY - headerHeight;
       window.scrollTo({ top, behavior: 'smooth' });
     }

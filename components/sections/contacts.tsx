@@ -79,11 +79,15 @@ export function Contacts() {
                         <a
                           href={contact.href}
                           className="mt-1 block text-sm font-semibold transition-colors hover:text-primary"
+                          style={{ overflowWrap: 'anywhere' }}
                         >
                           {contact.value}
                         </a>
                       ) : (
-                        <p className="mt-1 text-sm font-semibold">
+                        <p
+                          className="mt-1 text-sm font-semibold"
+                          style={{ overflowWrap: 'anywhere' }}
+                        >
                           {contact.value}
                         </p>
                       )}
