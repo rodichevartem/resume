@@ -14,7 +14,7 @@ export function Hero() {
   };
 
   return (
-    <section id="hero" className="relative overflow-hidden pt-28">
+    <section id="hero" className="relative flex min-h-[calc(100vh-80px)] items-center overflow-hidden pt-28 pb-16">
       <div className="pointer-events-none absolute inset-0 -z-10 bg-grid-pattern opacity-30" />
       <div className="container-max">
         <div className="grid min-h-[620px] items-center gap-12 pb-16 lg:grid-cols-[1fr_0.9fr] lg:gap-4 lg:pb-24">

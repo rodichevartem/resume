@@ -58,35 +58,33 @@ export function Contacts() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-50px' }}
           transition={{ duration: 0.5 }}
-          className="mx-auto max-w-2xl"
+          className="mx-auto max-w-4xl w-full"
         >
           <Card className="glass-card">
             <CardContent className="p-6 sm:p-8">
-              <div className="grid gap-4 sm:grid-cols-3">
+              <div className="grid gap-5 sm:grid-cols-3">
                 {contacts.map((contact) => (
                   <div
                     key={contact.field}
-                    className="flex flex-col items-center gap-3 rounded-lg border bg-background p-5 text-center"
+                    className="flex flex-col items-center gap-4 rounded-xl border bg-background p-7 text-center"
                   >
-                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary">
-                      <contact.icon className="h-6 w-6" />
+                    <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-primary">
+                      <contact.icon className="h-7 w-7" />
                     </div>
                     <div className="w-full">
-                      <p className="text-xs font-medium text-muted-foreground">
+                      <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
                         {contact.label}
                       </p>
                       {contact.href ? (
                         <a
                           href={contact.href}
-                          className="mt-1 block text-sm font-semibold transition-colors hover:text-primary"
-                          style={{ overflowWrap: 'anywhere' }}
+                          className="mt-2 block text-base font-semibold transition-colors hover:text-primary"
                         >
                           {contact.value}
                         </a>
                       ) : (
                         <p
-                          className="mt-1 text-sm font-semibold"
-                          style={{ overflowWrap: 'anywhere' }}
+                          className="mt-2 block text-base font-semibold"
                         >
                           {contact.value}
                         </p>
