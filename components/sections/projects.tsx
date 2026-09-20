@@ -26,13 +26,11 @@ const iconMap: Record<string, LucideIcon> = {
 
 export function Projects() {
   return (
-    <section id="projects" className="section-padding bg-secondary/30">
+    <section id="projects" className="section-padding border-y border-white/5 bg-white/[0.015]">
       <div className="container-max">
-        <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Проекты
-          </h2>
-          <div className="mx-auto mt-3 h-1 w-20 rounded-full bg-primary" />
+        <div className="mb-12">
+          <p className="eyebrow mb-3">04 / Избранное</p>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Проекты</h2>
           <p className="mt-4 text-muted-foreground">
             Внедрённые объекты промышленной автоматизации
           </p>
@@ -49,7 +47,7 @@ export function Projects() {
                 viewport={{ once: true, margin: '-50px' }}
                 transition={{ duration: 0.4, delay: index * 0.08 }}
               >
-                <Card className="group flex h-full flex-col overflow-hidden transition-all hover:shadow-lg hover:border-primary/40">
+                <Card className="glass-card group flex h-full flex-col overflow-hidden transition-all hover:-translate-y-1 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/10">
                   <div className="relative flex h-32 items-center justify-center overflow-hidden bg-gradient-to-br from-primary/10 to-chart-4/10">
                     <Icon className="h-12 w-12 text-primary transition-transform duration-300 group-hover:scale-110" />
                     <div className="absolute inset-0 bg-grid-pattern opacity-[0.05] transition-opacity group-hover:opacity-[0.08]" />

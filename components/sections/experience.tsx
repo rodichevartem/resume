@@ -9,16 +9,12 @@ import { experienceData, personalData } from '@/lib/data';
 
 export function Experience() {
   return (
-    <section id="experience" className="section-padding bg-secondary/30">
+    <section id="experience" className="section-padding bg-white/[0.015]">
       <div className="container-max">
-        <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Опыт работы
-          </h2>
-          <div className="mx-auto mt-3 h-1 w-20 rounded-full bg-primary" />
-          <p className="mt-4 text-muted-foreground">
-            {personalData.totalExperience} в промышленной автоматизации
-          </p>
+        <div className="mb-12">
+          <p className="eyebrow mb-3">02 / Карьера</p>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Опыт работы</h2>
+          <p className="mt-3 text-sm text-muted-foreground">{personalData.totalExperience} в промышленной автоматизации</p>
         </div>
 
         <div className="relative mx-auto max-w-3xl">
@@ -50,9 +46,9 @@ export function Experience() {
               </div>
 
               <Card
-                className={`${
+                className={`glass-card ${
                   index % 2 === 0 ? 'md:mr-8' : 'md:ml-8'
-                } transition-shadow hover:shadow-md`}
+                } transition-all hover:border-primary/40 hover:shadow-xl hover:shadow-primary/10`}
               >
                 <CardContent className="p-5 sm:p-6">
                   <div

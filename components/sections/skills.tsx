@@ -29,16 +29,12 @@ const iconMap: Record<string, LucideIcon> = {
 
 export function Skills() {
   return (
-    <section id="skills" className="section-padding">
+    <section id="skills" className="section-padding border-y border-white/5">
       <div className="container-max">
-        <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Навыки и компетенции
-          </h2>
-          <div className="mx-auto mt-3 h-1 w-20 rounded-full bg-primary" />
-          <p className="mt-4 text-muted-foreground">
-            Технологический стек для промышленной автоматизации
-          </p>
+        <div className="mb-12">
+          <p className="eyebrow mb-3">03 / Стек</p>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Навыки и компетенции</h2>
+          <p className="mt-3 text-sm text-muted-foreground">Технологический стек для промышленной автоматизации</p>
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -52,7 +48,7 @@ export function Skills() {
                 viewport={{ once: true, margin: '-50px' }}
                 transition={{ duration: 0.4, delay: index * 0.05 }}
               >
-                <Card className="group h-full transition-all hover:shadow-md hover:border-primary/50">
+                <Card className="glass-card group h-full transition-all hover:-translate-y-1 hover:border-primary/50 hover:shadow-xl hover:shadow-primary/10">
                   <CardHeader className="pb-3">
                     <div className="flex items-center gap-3">
                       <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
@@ -68,7 +64,7 @@ export function Skills() {
                       {category.skills.map((skill) => (
                         <span
                           key={skill}
-                          className="inline-flex items-center rounded-full border bg-secondary/60 px-3 py-1 text-xs font-medium text-secondary-foreground transition-all hover:scale-105 hover:border-primary hover:text-primary cursor-default"
+                          className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs font-medium text-secondary-foreground transition-all hover:scale-105 hover:border-primary hover:text-primary cursor-default"
                         >
                           {skill}
                         </span>

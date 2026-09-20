@@ -42,13 +42,11 @@ export function Contacts() {
   ];
 
   return (
-    <section id="contacts" className="section-padding bg-secondary/30">
+    <section id="contacts" className="section-padding border-t border-white/5 bg-white/[0.015]">
       <div className="container-max">
-        <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Контакты
-          </h2>
-          <div className="mx-auto mt-3 h-1 w-20 rounded-full bg-primary" />
+        <div className="mb-12">
+          <p className="eyebrow mb-3">07 / На связи</p>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Давайте работать вместе</h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground text-balance">
             Открыт к новым предложениям. Давайте обсудим, как я могу быть полезен
             вашей команде.
@@ -62,7 +60,7 @@ export function Contacts() {
           transition={{ duration: 0.5 }}
           className="mx-auto max-w-2xl"
         >
-          <Card>
+          <Card className="glass-card">
             <CardContent className="p-6 sm:p-8">
               <div className="grid gap-4 sm:grid-cols-3">
                 {contacts.map((contact) => (

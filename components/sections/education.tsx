@@ -11,11 +11,9 @@ export function Education() {
   return (
     <section id="education" className="section-padding">
       <div className="container-max">
-        <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-            Образование
-          </h2>
-          <div className="mx-auto mt-3 h-1 w-20 rounded-full bg-primary" />
+        <div className="mb-12">
+          <p className="eyebrow mb-3">05 / Образование</p>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Образование</h2>
         </div>
 
         <div className="mx-auto max-w-3xl space-y-12">
@@ -33,7 +31,7 @@ export function Education() {
                   viewport={{ once: true, margin: '-50px' }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                 >
-                  <Card className="h-full transition-shadow hover:shadow-md print-break">
+                  <Card className="glass-card h-full transition-all hover:-translate-y-1 hover:border-primary/40 print-break">
                     <CardContent className="p-6">
                       <div className="mb-3 flex items-center justify-between">
                         <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
@@ -77,7 +75,7 @@ export function Education() {
                   viewport={{ once: true, margin: '-50px' }}
                   transition={{ duration: 0.4, delay: index * 0.1 }}
                 >
-                  <Card className="h-full transition-all hover:shadow-md hover:border-primary/40 print-break">
+                  <Card className="glass-card h-full transition-all hover:-translate-y-1 hover:border-primary/40 print-break">
                     <CardContent className="p-6">
                       <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
                         <BadgeCheck className="h-5 w-5" />
