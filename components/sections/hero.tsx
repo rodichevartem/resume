@@ -37,7 +37,7 @@ export function Hero() {
                   <Image src="/images/Vladsviridenko_resized.com-055.jpg" alt="Артём Родичев" fill priority className="object-cover object-top grayscale-[10%]" sizes="(max-width: 640px) 320px, 370px" />
                 </div>
               </div>
-              <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.6 }} className="absolute -left-6 -top-1/2 -translate-y-1/2 flex items-center gap-2.5 rounded-xl border border-white/15 bg-secondary/90 p-2.5 pr-4 shadow-xl backdrop-blur-sm sm:-left-10">
+              <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.6 }} className="absolute -left-6 -top-1/2 flex items-center gap-2.5 rounded-xl border border-white/15 bg-secondary/90 p-2.5 pr-4 shadow-xl backdrop-blur-sm sm:-left-10">
                 <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/15 text-primary"><Briefcase className="h-4 w-4" /></div>
                 <div><p className="text-base font-bold leading-none text-primary">4+</p><p className="mt-0.5 text-[10px] text-muted-foreground">года опыта</p></div>
               </motion.div>
