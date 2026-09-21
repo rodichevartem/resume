@@ -37,17 +37,17 @@ export function Hero() {
                   <Image src="/images/Vladsviridenko_resized.com-055.jpg" alt="Артём Родичев" fill priority className="object-cover object-top grayscale-[10%]" sizes="(max-width: 640px) 320px, 370px" />
                 </div>
               </div>
-              <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.6 }} className="glass-card absolute -left-4 top-8 flex items-center gap-3 rounded-2xl p-3 pr-5 shadow-xl sm:-left-6">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary/15 text-primary"><Briefcase className="h-5 w-5" /></div>
-                <div><p className="text-xl font-bold leading-none text-primary">4+</p><p className="mt-1 text-[11px] text-muted-foreground">года опыта</p></div>
+              <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.6 }} className="absolute -left-6 -top-3 flex items-center gap-2.5 rounded-xl border border-white/15 bg-secondary/90 p-2.5 pr-4 shadow-xl backdrop-blur-sm sm:-left-10">
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/15 text-primary"><Briefcase className="h-4 w-4" /></div>
+                <div><p className="text-base font-bold leading-none text-primary">4+</p><p className="mt-0.5 text-[10px] text-muted-foreground">года опыта</p></div>
               </motion.div>
-              <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.75 }} className="glass-card absolute -right-4 top-1/2 flex items-center gap-3 rounded-2xl p-3 pl-5 shadow-xl sm:-right-6">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-chart-4/15 text-chart-4"><Factory className="h-5 w-5" /></div>
-                <div><p className="text-xl font-bold leading-none text-chart-4">6+</p><p className="mt-1 text-[11px] text-muted-foreground">SCADA платформ</p></div>
+              <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.75 }} className="absolute -right-6 top-6 flex items-center gap-2.5 rounded-xl border border-white/15 bg-secondary/90 p-2.5 pl-4 shadow-xl backdrop-blur-sm sm:-right-10">
+                <div><p className="text-right text-base font-bold leading-none text-chart-4">6+</p><p className="mt-0.5 text-[10px] text-muted-foreground">SCADA платформ</p></div>
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-chart-4/15 text-chart-4"><Factory className="h-4 w-4" /></div>
               </motion.div>
-              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.9 }} className="glass-card absolute -bottom-4 left-1/2 flex -translate-x-1/2 items-center gap-3 rounded-2xl p-3 px-5 shadow-xl">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-success/15 text-success"><Database className="h-5 w-5" /></div>
-                <div><p className="text-xl font-bold leading-none text-success">20+</p><p className="mt-1 text-[11px] text-muted-foreground">проектов</p></div>
+              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.9 }} className="absolute -bottom-4 left-1/2 flex -translate-x-1/2 items-center gap-2.5 rounded-xl border border-white/15 bg-secondary/90 p-2.5 px-4 shadow-xl backdrop-blur-sm">
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-success/15 text-success"><Database className="h-4 w-4" /></div>
+                <div><p className="text-base font-bold leading-none text-success">20+</p><p className="mt-0.5 text-[10px] text-muted-foreground">проектов</p></div>
               </motion.div>
             </div>
           </motion.div>
