@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { ArrowRight, Download, Code2, Database, Factory, Briefcase } from 'lucide-react';
+import { ArrowRight, Download, Briefcase, Factory, Database } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 import { personalData } from '@/lib/data';
@@ -37,15 +37,21 @@ export function Hero() {
                   <Image src="/images/Vladsviridenko_resized.com-055.jpg" alt="Артём Родичев" fill priority className="object-cover object-top grayscale-[10%]" sizes="(max-width: 640px) 320px, 370px" />
                 </div>
               </div>
+              <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.6 }} className="glass-card absolute -left-4 top-8 flex items-center gap-3 rounded-2xl p-3 pr-5 shadow-xl sm:-left-6">
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary/15 text-primary"><Briefcase className="h-5 w-5" /></div>
+                <div><p className="text-xl font-bold leading-none text-primary">4+</p><p className="mt-1 text-[11px] text-muted-foreground">года опыта</p></div>
+              </motion.div>
+              <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.75 }} className="glass-card absolute -right-4 top-1/2 flex items-center gap-3 rounded-2xl p-3 pl-5 shadow-xl sm:-right-6">
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-chart-4/15 text-chart-4"><Factory className="h-5 w-5" /></div>
+                <div><p className="text-xl font-bold leading-none text-chart-4">6+</p><p className="mt-1 text-[11px] text-muted-foreground">SCADA платформ</p></div>
+              </motion.div>
+              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.9 }} className="glass-card absolute -bottom-4 left-1/2 flex -translate-x-1/2 items-center gap-3 rounded-2xl p-3 px-5 shadow-xl">
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-success/15 text-success"><Database className="h-5 w-5" /></div>
+                <div><p className="text-xl font-bold leading-none text-success">20+</p><p className="mt-1 text-[11px] text-muted-foreground">проектов</p></div>
+              </motion.div>
             </div>
-            <div className="glass-card absolute left-0 top-1/3 rounded-xl p-4 shadow-xl"><p className="text-2xl font-bold text-primary">4+</p><p className="mt-1 text-[11px] text-muted-foreground">года опыта</p></div>
-            <div className="glass-card absolute bottom-16 right-0 rounded-xl p-4 shadow-xl"><p className="text-2xl font-bold text-chart-4">6+</p><p className="mt-1 text-[11px] text-muted-foreground">SCADA платформ</p></div>
           </motion.div>
         </div>
-
-        <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.5 }} className="glass-card grid grid-cols-2 divide-x divide-y divide-white/10 overflow-hidden rounded-2xl sm:grid-cols-4 sm:divide-y-0">
-          {[{ icon: Code2, value: '4+', label: 'года опыта' }, { icon: Factory, value: '6+', label: 'SCADA платформ' }, { icon: Database, value: '20+', label: 'проектов' }, { icon: Briefcase, value: '2', label: 'уровня АСУ ТП' }].map(({ icon: Icon, value, label }) => <div key={label} className="flex items-center gap-3 p-5 sm:p-6"><Icon className="h-5 w-5 text-primary" /><div><p className="text-2xl font-bold">{value}</p><p className="text-xs text-muted-foreground">{label}</p></div></div>)}
-        </motion.div>
       </div>
     </section>
   );

@@ -47,9 +47,12 @@ export function Contacts() {
         <div className="mb-12">
           <p className="eyebrow mb-3">07 / На связи</p>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Давайте работать вместе</h2>
-          <p className="mx-auto mt-4 max-w-2xl text-muted-foreground text-balance">
-            Открыт к новым предложениям. Давайте обсудим, как я могу быть полезен
-            вашей команде.
+          <div className="mt-5 flex items-center gap-2.5 rounded-full border border-success/25 bg-success/10 px-4 py-2 text-sm font-medium text-success w-fit">
+            <span className="h-2 w-2 animate-pulse rounded-full bg-success" />
+            Открыт к новым предложениям
+          </div>
+          <p className="mt-4 max-w-2xl text-muted-foreground text-balance">
+            Давайте обсудим, как я могу быть полезен вашей команде.
           </p>
         </div>
 
